@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+#main {
+  background-color: orange;
+}
+
+.line {
+  display: inline-block;
+  float: left;
+  margin-left: 100px;
+}
+
+th {
+  display: inline-block; 
+}
+
+.navdiv {
+  width: auto;
+  height: auto;
+  background-color: orange;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding-left: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#nav {
+  list-style: none;
+  color: white;
+  justify-content: center;
+}
+
+#footer {
+  width: auto;
+  height: auto;
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+}
+
+#menulist {
+  list-style: none;
+}
+
+.menudiv {
+  width: auto;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#inputbox {
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+#textbox {
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  width: 400px;
+  height: 60px;
+}
+
+#subor {
+  background-color: silver;
+  border: 1px solid #1a1a1a;
+  width: 200px;
+  font-weight: bolder;
+  transition: .5s;
+}
+
+#subor:hover {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+#submitpay {
+  background-color: green;
+  border: 1px solid green;
+  width: 150px;
+  height: 30px;
+  font-weight: bolder;
+  transition: .5s;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+#submitpay:hover {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.paymentdiv {
+  padding: 20px;
+  margin: 50px;
+  background-color: #EBDDE2;
+  color: black;
+}
+
+#infoform {
+ background-color: #FFE87C;
+ padding: 20px;
+ margin-bottom: -20px;
+}
+
+#cvcbox {
+  width: 50px;
+  height: 25px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.tablecomponent {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.tableitem {
+  padding-bottom: 15px;
+}
+
+#ordercondiv {
+  height: 300px;
+  background-color: #64E986;
+  margin-top: -40px;
+}
+
+#conheading {
+  padding-top: 100px;
+}
+
+#conwait {
+  padding-top: 20px;
+}
+
+
+
+
+
